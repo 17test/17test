@@ -11,4 +11,11 @@ public class Home {
     public String home(){
         return "home";
     }
+
+    @GetMapping("/happy")
+    @ResponseBody
+    public String happy(){
+        return "happy";
+    }
+
 }
